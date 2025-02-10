@@ -130,5 +130,15 @@ h1 {
   top: 78px;
   right: -576px;
   z-index: -1;
-
 }
+
+.cars {
+  background: black;
+  padding: 130px 0;
+}
+
+h2 {
+  font-size: 65px;
+  font-weight: normal;
+}
+
