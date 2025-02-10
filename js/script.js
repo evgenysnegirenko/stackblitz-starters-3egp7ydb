@@ -1,1 +1,3 @@
-console.log('Hello!');
+document.getElementById("main-action-button").onclick = function () {
+    
+};
