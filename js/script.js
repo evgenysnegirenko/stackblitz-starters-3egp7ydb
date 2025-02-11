@@ -69,8 +69,11 @@ window.onload = () => {
             phone.value = '';
             // Убираем классы ошибок
             car.classList.remove('input-valid');
+            car.classList.add('input-valid');
             name.classList.remove('input-valid');
+            name.classList.add('input-valid');
             phone.classList.remove('input-valid');
+            phone.classList.add('input-valid');
         }
     });
 }
