@@ -305,13 +305,20 @@ h1 {
   color: #d4d4d4;
 }
 
+.input-error {
+  border: 1px solid red;
+}
+.input-valid {
+  border: 1px solid white;
+}
+
 .order input {
   width: 100%;
   height: 68px;
   padding: 24px 20px;
   box-sizing: border-box;
   color: white;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   background-color: transparent;
   margin-bottom: 15px;
   font-style: 16px;
@@ -336,3 +343,4 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
 }
+
